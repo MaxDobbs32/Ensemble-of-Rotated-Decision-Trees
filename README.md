@@ -1,6 +1,6 @@
 # Ensemble-of-Rotated-Decision-Trees
 
-This project has several dependencies. The following Python packages must be installed for the Python kernel used when you run Jupyter notebook:
+This project has several dependencies. You must install Jupyter Notebook to run code within the file and view the results. In addition, the following Python packages must be installed for the Python kernel used when you run Jupyter notebook:
  - matplotlib
  - numpy
  - pandas
