@@ -21,7 +21,6 @@ This project has several dependencies. You must install Jupyter Notebook to run 
  - Office of Federal Student Aid. 2023. "National Student Loan Data System." Last updated August 12, 2023. https://catalog.data.gov/dataset/national-student-loan-data-system-722b0.
   
 ### Steps Performed in Accessing and Reformatting Data Files
-#### (none affecting data used)
 CPS ORG Uniform Extracts:
  - Downloaded cepr_org_2019.zip
  - Extracted cepr_org_2019.dta into data subfolder
@@ -38,3 +37,5 @@ National Student Loan Data System:
  - Downloaded FL_Dashboard_AY2009_2010_Q1.xls into data subfolder
  - Converted FL_Dashboard_AY2009_2010_Q1.xls to CSV file
  - Renamed _unused_ columns titled "Recipients" or "$ of Loans Originated" to prevent repeating column names
+
+None of the data used has been affected by any steps taken to download and reformat data files.
