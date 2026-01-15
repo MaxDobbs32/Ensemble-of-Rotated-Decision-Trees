@@ -1,4 +1,11 @@
 # Ensemble-of-Rotated-Decision-Trees
+Random forests, a kind of ensemble of decision trees with a random component, have demonstrated themselves to be quite useful in drawing boundaries that effectively categorize data. However, the boundaries they give are difficult to interpret. In this project, I create and test ensembles of rotated decision trees, hoping that I might be able to make more interpretable boundaries without losing accuracy. These ensembles are compared with random forests in their ability to categorize data from three data sets: the 2019 CPS ORG uniform extracts, the inventory of owned and leased properties, and the national student loan data system.
+
+For context, a decision tree is a kind of machine learning model that categorizes data based on two or more quantitative variables. For two-dimensional data, the boundary it draws consists of vertical and horizontal lines. I created the rotated decision tree as a variation of this model, such that (potentially more optimal) diagonal lines are possible. Essentially, it is a decision tree that rotates data by some specified amount, categorizes it, then rotates it back.
+
+An ensemble consists of multiple models and makes decisions based on their results. As stated before, random forests are an ensemble of decision trees. The majority-vote ensemble I test contains 30 rotated decision trees, one for every 3 degrees from 0 to 87. Here, "majority-vote" means that the 30 rotated decision trees in the ensemble vote to create the resulting boundary that categorizes data. I create and compare 12 such ensembles and 12 random forests side-by-side, 4 for each of the 3 data sets.
+
+More details are available in ensemble_code_and_tests.ipynb, which can be viewed on GitHub or opened with Jupyter Notebook on a local system.
 
 ### Dependencies
 This project has several dependencies. You must install Jupyter Notebook to run code within the file and view the results. In addition, the following Python packages must be installed for the Python kernel used when you run Jupyter notebook:
