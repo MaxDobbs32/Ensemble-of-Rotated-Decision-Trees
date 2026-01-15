@@ -16,14 +16,17 @@ This project has several dependencies. You must install Jupyter Notebook to run 
 ### Steps Performed in Accessing and Reformatting Data Files (none affecting data used)
 CPS ORG Uniform Extracts:
  - Downloaded cepr_org_2019.zip
- - Extracted cepr_org_2019.dta
+ - Extracted cepr_org_2019.dta into data subfolder
  - Converted cepr_org_2019.dta to CSV file
- - Removed all unused columns (only necessary to upload the data file to this online repository, which would otherwise exceed the size restriction on GitHub)
+ - In CSV file, renamed column names as follows: "union" to "Union", "weekpay" to "Weekly Pay", and "wage4" to "Yearly Wage"
+   - This helped with clarity and ensured variable names had a consistent style.
+ - Removed all unused columns
+   - This step was necessary to upload the data file to this online repository, which would otherwise exceed the size restriction on GitHub. If you repeat these steps with the file on a local system, removing unused columns will likely not be required.
 
 Inventory of Owned and Leased Properties:
- - Downloaded 2025-4-11-iolp-buildings.xlsx (no changes)
+ - Downloaded 2025-4-11-iolp-buildings.xlsx into data subfolder (no changes)
 
 National Student Loan Data System:
- - Downloaded FL_Dashboard_AY2009_2010_Q1.xls
+ - Downloaded FL_Dashboard_AY2009_2010_Q1.xls into data subfolder
  - Converted FL_Dashboard_AY2009_2010_Q1.xls to CSV file
  - Renamed _unused_ columns titled "Recipients" or "$ of Loans Originated" to prevent repeating column names
