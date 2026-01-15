@@ -12,7 +12,7 @@ This project has several dependencies. You must install Jupyter Notebook to run 
  - matplotlib
  - numpy
  - pandas
- - sci-kit learn
+ - scikit-learn (also spelled sklearn, depending on how you install it)
  - openpyxl
 
 ### Data Citations
