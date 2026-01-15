@@ -14,7 +14,8 @@ This project has several dependencies. You must install Jupyter Notebook to run 
  - Office of Federal Student Aid. 2023. "National Student Loan Data System." Last updated August 12, 2023. https://catalog.data.gov/dataset/national-student-loan-data-system-722b0.
   
 ### Steps Performed in Accessing and Reformatting Data Files (none affecting data used)
-CPS ORG Uniform Extracts: - Downloaded cepr_org_2019.zip
+CPS ORG Uniform Extracts:
+ - Downloaded cepr_org_2019.zip
  - Extracted cepr_org_2019.dta into data subfolder
  - Converted cepr_org_2019.dta to CSV file
  - In CSV file, renamed column names as follows: "union" to "Union", "weekpay" to "Weekly Pay", and "wage4" to "Yearly Wage"
@@ -23,9 +24,11 @@ CPS ORG Uniform Extracts: - Downloaded cepr_org_2019.zip
    - This step was necessary to upload the data file to this online repository, which would otherwise exceed the size restriction on GitHub. If you repeat these steps with the file on a local system, removing unused columns will likely not be required.
 
 
-Inventory of Owned and Leased Properties: - Downloaded 2025-4-11-iolp-buildings.xlsx into data subfolder (no changes)
+Inventory of Owned and Leased Properties:
+ - Downloaded 2025-4-11-iolp-buildings.xlsx into data subfolder (no changes)
 
 
-National Student Loan Data System: - Downloaded FL_Dashboard_AY2009_2010_Q1.xls into data subfolder
+National Student Loan Data System:
+ - Downloaded FL_Dashboard_AY2009_2010_Q1.xls into data subfolder
  - Converted FL_Dashboard_AY2009_2010_Q1.xls to CSV file
  - Renamed _unused_ columns titled "Recipients" or "$ of Loans Originated" to prevent repeating column names
