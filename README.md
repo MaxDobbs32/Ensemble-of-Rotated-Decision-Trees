@@ -23,10 +23,8 @@ CPS ORG Uniform Extracts:
  - Removed all unused columns
    - This step was necessary to upload the data file to this online repository, which would otherwise exceed the size restriction on GitHub. If you repeat these steps with the file on a local system, removing unused columns will likely not be required.
 
-
 Inventory of Owned and Leased Properties:
  - Downloaded 2025-4-11-iolp-buildings.xlsx into data subfolder (no changes)
-
 
 National Student Loan Data System:
  - Downloaded FL_Dashboard_AY2009_2010_Q1.xls into data subfolder
